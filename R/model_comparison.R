@@ -15,7 +15,10 @@ compare_models <- function(fits) {
 
   list(
     loo = loo_objects,
-    loo_comparison = do.call(loo::loo_compare, loo_objects),
+    loo_comparison = do.call(
+  loo::loo_compare,
+  c(list(x = loo_objects[[1]]), unname(loo_objects[-1]))
+),
     waic = waic_objects,
     dic = do.call(rbind, dic_values)
   )

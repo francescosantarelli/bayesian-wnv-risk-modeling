@@ -1,0 +1,14 @@
+
+# macOS
+.DS_Store
+
+# Generated model fits and outputs
+fits/
+output/
+
+# R session files
+.Rhistory
+.Rapp.history
+
+# Stan compiled model cache
+stan/*.rds
