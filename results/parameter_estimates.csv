@@ -1,0 +1,4 @@
+Parameter,Mean,SD,CI_2.5,CI_97.5,IRR
+beta0 (Intercept),-6.26,0.17,-6.61,-5.94,
+beta1 (Bird cases),0.21,0.08,0.06,0.35,1.23
+beta2 (Positive bird rate),0.48,0.11,0.25,0.7,1.62

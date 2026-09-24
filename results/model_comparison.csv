@@ -1,0 +1,5 @@
+Model,Description,Delta_elpd,SE_delta_elpd,WAIC,DIC,pD
+Model 1,Intercept only,-20.5,8.5,166.25,163.78,0.95
+Model 2,Bird cases + positive bird rate,0.0,,123.04,121.09,2.98
+Model 3,All five predictors,-2.2,3.0,126.69,122.66,6.12
+Model 4,All predictors + horseshoe prior,-1.6,2.0,125.85,122.79,5.11
