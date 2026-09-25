@@ -39,6 +39,12 @@ The two-predictor avian model was retained as the final specification. It had th
 
 The differences between the selected model and the two more complex alternatives were small in LOO terms, so the final choice was based on predictive performance together with parsimony and sampling stability.
 
+### Model diagnostics
+
+The two-predictor avian model achieved the best PSIS-LOO performance, while the full and horseshoe models showed similar predictive performance within uncertainty. The baseline model performed substantially worse.
+
+The reproducible run identified a small number of observations with Pareto-k values above 0.7, so some leave-one-out estimates should be interpreted with caution. The horseshoe model also produced divergent transitions, reinforcing the choice of the simpler avian model as the final specification.
+
 ### Selected-model posterior summaries
 
 | Parameter | Posterior mean | 95% credible interval | IRR |
