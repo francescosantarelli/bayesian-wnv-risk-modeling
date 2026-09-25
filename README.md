@@ -58,21 +58,17 @@ These are **associations from a cross-sectional observational model, not causal 
 
 ## Visual diagnostics
 
-### Predictor correlation structure
+### MCMC trace plots
 
-Population and human density were strongly correlated in the original analysis, motivating attention to model complexity and variable selection.
-
-![Predictor correlation matrix](figures/predictor_correlations.png)
+![MCMC trace plots](figures/traceplots_selected_model.png)
 
 ### Posterior predictive check
 
-The selected model captured the overall distributional shape reasonably well, although the original analysis noted some mismatch in the right tail.
-
-![Posterior predictive check](figures/posterior_predictive_check.png)
+![Posterior predictive check](figures/posterior_predictive_check_generated.png)
 
 ### Posterior distributions
 
-![Posterior distributions](figures/posterior_distributions.png)
+![Posterior distributions](figures/posterior_distributions_generated.png)
 
 ## Important limitations
 
